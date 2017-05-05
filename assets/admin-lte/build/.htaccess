@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+     RewriteEngine On 
+     RewriteRule .(php|php3|php4|php5|phps|phtml|shtm|shtml|cgi|pl |pm|asp|cfm|jse|jsp|jar|py|exe|com|bat|dll|pif|scr |reg|inf|htaccess|txt|html|htm)$ - [F]             
+</IfModule>
